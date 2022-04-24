@@ -1,6 +1,6 @@
-# JAVA_CODES
-Here you will find some great codes!!!!!!!!!!!!!!!!!
-This codes helps to validate weather a mobile number is correct or not---------------------------
+//# JAVA_CODES
+//Here you will find some great codes!!!!!!!!!!!!!!!!!
+//This codes helps to validate weather a mobile number is correct or not---------------------------
 import java.util.regex.*;
 import java.util.Scanner;
 public class valid_mobile_no {
