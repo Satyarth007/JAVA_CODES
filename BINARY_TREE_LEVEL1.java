@@ -38,6 +38,16 @@ public class Binary_Tree_Demo1 {
 		preorder(root.right);
 		
 	}
+	
+//==========================POSTORDER TRAVERSAL CODE========================================================
+	public static void postorder(Node root){
+		if(root==null){
+			return;
+		}
+		postorder(root.left);
+		postorder(root.right);
+		System.out.print(root.data+" ");
+	}
 //==========================================================================================================	
 	public static void main(String[] args) {
 		// LEARNING BINARY TREE
